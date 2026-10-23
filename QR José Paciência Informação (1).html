@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validação do Certificado</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #d1def7;
+    color: #333b53;
+}
+
+.container {
+    width: 100%;
+    background: #f0f1ff;
+    padding: 45px 3%;
+    box-shadow: 0 2px 5px #aab4c8;
+}
+
+h1 {
+    font-size: 28px;
+    color: #142d59;
+    margin: 10px 0 85px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: normal;
+    margin: 0 0 25px;
+    color: #53596e;
+}
+
+.secao {
+    margin-bottom: 85px;
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+    .linha {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    h1 {
+        font-size: 23px;
+        margin-bottom: 65px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>♙ Validação do Certificado</h1>
+
+    <section class="secao">
+        <h2>♙ Dados do Formando</h2>
+
+        <div class="linha">
+            <div class="campo">
+                Nome do Formando: José Mbuese Paciência
+            </div>
+
+            <div class="campo">
+                Nº do Documento de Identificação: 009581146BA044
+            </div>
+        </div>
+    </section>
+
+    <section class="secao">
+        <h2>♙ Dados da Matrícula</h2>
+
+        <div class="linha">
+            <div>
+                <div class="campo">Nome do Curso: Electricidade</div>
+                <div class="campo">Data de Início: 07/02/2024</div>
+            </div>
+
+            <div>
+                <div class="campo">Tipo de Formação: AVANÇO</div>
+                <div class="campo">Data de Fim: 27/06/2024</div>
+                <div class="campo">Classificação: 14</div>
+            </div>
+
+            <div>
+                <div class="campo">Duração: 400:00</div>
+                <div class="campo">Estado da Matrícula: Apto</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao">
+        <h2>♙ Dados do Centro de Formação</h2>
+
+        <div class="linha">
+            <div class="campo">
+                Centro de Formação: Pavilhão de Formação de Artes e Oficios da Catumbela
+            </div>
+
+            <div class="campo">
+                Província: Benguela
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
